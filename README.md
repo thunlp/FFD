@@ -7,11 +7,12 @@ This repo contains codes accompanying paper "Fact Discovery from Knowledge Base 
 git clone https://github.com/fuzihaofzh/FFD.git
 ```
 
-2. Compile Analogy
+2. Compile & Install
 ```
 cd ANALOGY
 make
 cd ..
+pip install -r requirements.txt
 ```
 
 3. Train Entity-relation Facet Component & Tail Inference Facet Component

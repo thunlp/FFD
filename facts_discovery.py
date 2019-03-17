@@ -909,11 +909,17 @@ class FactsDiscovery():
                 os.system('./ANALOGY/main -algorithm Analogy -model_path ./output/Analogy_FB15k_p0.5.model -dataset ./ANALOGY/FB15k/p0.5 -prediction true')
                 self.mergeFile('./ANALOGY/FB15k/%s-iter-train.txt'%self.inputTag, './output/%s-train.txt'%self.inputTag, './output/%s-train.txt'%self.inputTag)
 
+def mkdir(dirname):
+    if not os.path.exists(dirname):
+        os.makedirs(dirname)
 
 
 
 if __name__ == "__main__":
     from facts_discovery import *
+    mkdir('output')
+    mkdir('output/log')
+    mkdir('output/runs')
     self = FactsDiscovery(cudaId = None)
     s = self
     fire.Fire(s)

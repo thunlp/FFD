@@ -1,3 +1,5 @@
 lda
 tensorboardX
 scikit-learn
+torch
+msgpack
