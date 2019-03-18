@@ -167,7 +167,7 @@ class FactsDiscovery():
         self.inputTag = '_' + str(args.inputTag)
         self.tbLogger = TBLogger(expName = self.expName)
         self.trs_vectorLen = 100
-        self.prtH = 20
+        self.prtH = 30
         self.prtR = 30
         self.prtR2 = 10# for making candindate set
         self.prtT = 2
