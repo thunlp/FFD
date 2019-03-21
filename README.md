@@ -31,7 +31,7 @@ pip install -r requirements.txt
 3. Train Entity-relation Facet Component & Tail Inference Facet Component
 ```
 python facts_discovery.py run --inputTag p0.5 --cudaId 0 --step trainCorNet
-ANALOGY/main -algorithm Analogy -model_path output/Analogy_FB15k_p0.5.model -dataset ANALOGY/FB15k/p0.5
+ANALOGY/main -algorithm Analogy -model_path output/Analogy_FB15k_p0.5.model -dataset ANALOGY/FB15k/p0.5 -num_thread 8
 ```
 
 4. Train FFD and predict
