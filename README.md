@@ -4,6 +4,15 @@ Fact Discovery from Knowledge Base via Facet Decomposition. Zihao Fu, Yankai Lin
 
 ## How to use our code for FFD
 
+### Prerequisite
+- g++ 7.3.0
+- Python 2.7.16
+
+All the codes are tested under Ubuntu Ubuntu 18.04.1 LTS.
+
+### Dataset
+We made a new dataset based on FB15k, it was already in `ANALOGY/FB15k`.
+
 
 ### Usage
 1. Clone
@@ -30,8 +39,7 @@ ANALOGY/main -algorithm Analogy -model_path output/Analogy_FB15k_p0.5.model -dat
 python facts_discovery.py run --inputTag p0.5 --cudaId 0 --step feedback
 ```
 
-# Dataset
-We made a new dataset based on FB15k, it was already in `ANALOGY/FB15k`.
+
 
 
 
