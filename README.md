@@ -1,7 +1,11 @@
-# FDD
-This repo contains codes accompanying paper "Fact Discovery from Knowledge Base via Facet Decomposition" (NAACL-HLT 2019).
+# Fact Discovery from Knowledge Base via Facet Decomposition
+This repo contains the source code and dataset for the following paper:
+Fact Discovery from Knowledge Base via Facet Decomposition. Zihao Fu, Yankai Lin, Zhiyuan Liu and Wai Lam. Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT 2019).
 
-# Quick Start
+## How to use our code for FFD
+
+
+### Usage
 1. Clone
 ```
 git clone https://github.com/fuzihaofzh/FFD.git
@@ -29,8 +33,6 @@ python facts_discovery.py run --inputTag p0.5 --cudaId 0 --step feedback
 # Dataset
 We made a new dataset based on FB15k, it was already in `ANALOGY/FB15k`.
 
-# Cite
-Please Cite: Fact Discovery from Knowledge Base via Facet Decomposition
-Zihao Fu, Yankai Lin, Zhiyuan Liu and Wai Lam
+
 
 
