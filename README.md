@@ -11,7 +11,19 @@ Fact Discovery from Knowledge Base via Facet Decomposition. Zihao Fu, Yankai Lin
 All the codes are tested under Ubuntu Ubuntu 18.04.1 LTS.
 
 ### Dataset
-We made a new dataset based on FB15k, it was already in `ANALOGY/FB15k`.
+We made a new dataset based on FB15k, it was already in `ANALOGY/FB15k`. The dataset structure is as follows:
+
+FB15k
+├── p0.5-entities.txt
+├── p0.5-relations.txt 
+├── p0.5-test.txt
+├── p0.5-train.txt
+├── p0.5-valid.txt
+├── entity2id.txt
+└── relation2id.txt
+
+in which, `p0.5-train.txt`, `p0.5-test.txt`, `p0.5-valid.txt` are the tain, test and valid set respectively. Each line contains the head, relation and tail of a fact. `p0.5-entities.txt` and `p0.5-relations.txt` contains the name of all entities and relations. `entity2id.txt` and `relation2id.txt` contain ids for entities and relations.
+
 
 
 ### Usage
@@ -39,6 +51,14 @@ ANALOGY/main -algorithm Analogy -model_path output/Analogy_FB15k_p0.5.model -dat
 python facts_discovery.py run --inputTag p0.5 --cudaId 0 --step feedback
 ```
 
+### Cite
+@inproceedings{fu2019fact,
+  title={Fact Discovery from Knowledge Base via Facet Decomposition},
+  author={Zihao, Fu and Yankai, Lin and Zhiyuan, Liu and Wai, Lam},
+  booktitle={Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers)},
+  volume={1},
+  year={2019}
+}
 
 
 
