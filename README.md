@@ -8,7 +8,7 @@ Fact Discovery from Knowledge Base via Facet Decomposition. Zihao Fu, Yankai Lin
 - g++ 7.3.0
 - Python 2.7.16
 
-All the codes are tested under Ubuntu Ubuntu 18.04.1 LTS.
+All the codes are tested under Ubuntu 18.04.1 LTS.
 
 ### Dataset
 We made a new dataset based on FB15k, it was already in `ANALOGY/FB15k`. The dataset structure is as follows:
@@ -55,7 +55,7 @@ python facts_discovery.py run --inputTag p0.5 --cudaId 0 --step feedback
 
     @inproceedings{fu2019fact,
       title={Fact Discovery from Knowledge Base via Facet Decomposition},
-      author={Zihao, Fu and Yankai, Lin and Zhiyuan, Liu and Wai, Lam},
+      author={Fu, Zihao and Lin, Yankai and Liu, Zhiyuan and Lam, Wai},
       booktitle={Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers)},
       volume={1},
       year={2019}
