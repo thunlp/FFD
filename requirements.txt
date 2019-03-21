@@ -3,3 +3,4 @@ tensorboardX
 scikit-learn
 torch
 msgpack
+fire
