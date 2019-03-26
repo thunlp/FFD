@@ -45,11 +45,14 @@ pip install -r requirements.txt
 python facts_discovery.py run --inputTag p0.5 --cudaId 0 --step trainCorNet
 ANALOGY/main -algorithm Analogy -model_path output/Analogy_FB15k_p0.5.model -dataset ANALOGY/FB15k/p0.5 -num_thread 8
 ```
+in `facts_discovery.py`, `inputTag` is the dataset prefix. `cudaId` is the gpu divice id  `step` is the running mode.
+in `ANALOGY/main`, `model_path` is the place to save the model. `dataset` is the dataset path and `num_thread` is the thread number.
 
 4. Train FFD and predict
 ```
 python facts_discovery.py run --inputTag p0.5 --cudaId 0 --step feedback
 ```
+
 
 ### Cite
 
