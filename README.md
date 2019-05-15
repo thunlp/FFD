@@ -1,6 +1,6 @@
 # Fact Discovery from Knowledge Base via Facet Decomposition
 This repo contains the source code and dataset for the following paper:
-Fact Discovery from Knowledge Base via Facet Decomposition. Zihao Fu, Yankai Lin, Zhiyuan Liu and Wai Lam. Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT 2019).
+Fact Discovery from Knowledge Base via Facet Decomposition. Zihao Fu, Yankai Lin, Zhiyuan Liu and Wai Lam. Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT 2019). [PDF](https://arxiv.org/abs/1904.09540)
 
 ## How to use our code for FFD
 
